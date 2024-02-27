@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>SignUp</title>
+</head>
+
+<body class="bg-gradient-to-b from-violet-400 via-gray-200 to-purple-200">
+        <div class="md:flex justify-around min-h-screen items-center">
+            <div class="text-center mx-auto relative">
+                <img src="../image_files/pc.jpg" alt="..." class="hidden md:block w-[700px] rounded-lg">
+                <div class="md:absolute md:top-7 md:left-[30%]">
+                  <h1 class="text-5xl font-serif md:min-h-[40vh] text-blue-500">Kyaw Gyi <br> <span class="text-white">Game Store</span></h1>
+                <div class="min-h-[40vh] hidden md:block">
+                  <h2 class="text-white">You Want More Games In here</h2>
+                  <button class="bg-blue-500 text-white p-3 rounded-md mt-5">View More</button>
+                </div>
+                </div>
+              </div>
+            <div class="flex-col space-y-5 mt-16 md:w-auto w-72 mx-auto">
+                <div class="flex flex-col text-xs md:text-base">
+                    <button class="px-20 py-2 bg-blue-600 text-white rounded-full flex items-center"><ion-icon
+                            name="logo-facebook" class="text-2xl"></ion-icon>CONTINUE WITH FACEBOOK</button>
+                    <button class="mt-3 px-20 py-2 bg-white rounded-full flex items-center"><ion-icon name="logo-google"
+                            class="text-2xl"></ion-icon>CONTINUE WITH GOOGLE</button>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span class="w-[45%] h-[2px] bg-slate-300"></span>
+                    <p class="font-semibold text-sm">OR</p>
+                    <span class="w-[45%] h-[2px] bg-slate-300"></span>
+                </div>
+                <div class="text-center font-semibold">
+                    <h3>Sign up with your email address</h3>
+                </div>
+                <div>
+                    <h5 class="text-sm font-semibold">Your Email</h5>
+                    <input type="text" placeholder="Enter your email"
+                        class="md:w-96 w-72 h-10 border border-black bg-transparent rounded-md p-2">
+                </div>
+                <div>
+                    <h5 class="text-sm font-semibold">Confirm your email</h5>
+                    <input type="text" placeholder="Enter your email again"
+                        class="md:w-96 w-72 h-10 border border-black bg-transparent rounded-md p-2">
+                </div>
+                <div class="relative">
+                    <h5 class="text-sm font-semibold">Create a password</h5>
+                    <input type="text" placeholder="Create a password"
+                        class="md:w-96 w-72 h-10 border border-black bg-transparent rounded-md p-2">
+                    <span class="absolute md:right-8 right-3 bottom-[7px]"><ion-icon name="eye-off-outline"
+                            class="text-lg text-[rgba(0,0,0,.5)]"></ion-icon></span>
+                </div>
+                <div>
+                    <h5 class="text-sm font-semibold">Input Username</h5>
+                    <input type="text" placeholder="Enter a profile name"
+                        class="md:w-96 w-72 h-10 border border-black bg-transparent rounded-md p-2">
+                </div>
+                <div>
+                    <h5 class="text-sm font-semibold">Your date of birth</h5>
+                    <div class="flex space-x-3">
+                        <div>
+                            <h5 class="text-sm">Month</h5>
+                            <input type="text" placeholder="Month" class="border border-black bg-transparent p-2 rounded-md md:w-[170px] w-[125px]">
+                        </div>
+                        <div>
+                            <h5 class="text-sm">Day</h5>
+                            <input type="text" placeholder="DD" class="border border-black bg-transparent p-2 rounded-md md:w-24 w-[70px]">
+                        </div>
+                        <div>
+                            <h5 class="text-sm ">Year</h5>
+                            <input type="text" placeholder="YYYY" class="border border-black bg-transparent p-2 rounded-md md:w-24 w-[70px]">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="text-sm font-semibold mb-2">Your Gender</h5>
+                    <div class="flex md:space-x-10 space-x-5 text-xs">
+                        <div>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" id="female">
+                            <label for="male">Female</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" id="non-binary">
+                            <label for="male">Non-binary</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" id="other">
+                            <label for="male">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center md:w-[400px] w-[300px] flex-col space-y-3">
+                    <div class="text-xs"><p>By clicking on sign-up,you agree to Kyaw Gyi's <span class="text-blue-500">Terms and Conditions of Use</span></p></p></div>
+                    <div class="text-xs "><p>To learn more about how this website collects,uses,shares and protects your personal data,please sees <span class="text-blue-500">this website's Privacy Policy.</span></p></div>
+                    <div><button class="bg-blue-500 px-6 py-2 rounded-full font-bold">Sign Up</button></div>
+                </div>
+                <div class="min-h-[10vh] text-center"><a href="loginPage.html"><p>Have an account? <span class="text-blue-600 underline">log in</span></p></a></div>
+            </div>
+        </div>  
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <title>Login</title>
+</head>
+
+<body class=" bg-gradient-to-br from-purple-200 via-indigo-100 to-indigo-800">
+  <header>
+    <div class="md:flex justify-around min-h-screen items-center">
+      <div class="text-center mx-auto relative">
+        <img src="../image_files/pc.jpg" alt="..." class="hidden md:block w-[500px] rounded-xl">
+        <div class="md:absolute md:top-7 md:left-[30%]">
+          <h1 class="text-5xl font-serif md:min-h-[40vh] text-blue-500">Kyaw Gyi <br> <span class="text-white">Game Store</span></h1>
+        <div class="min-h-[40vh] hidden md:block">
+          <h2 class="text-white">You Want More Games In here</h2>
+          <button class="bg-blue-500 text-white p-3 rounded-md mt-5">View More</button>
+        </div>
+        </div>
+      </div>
+      <div class="flex-col space-y-5 w-72 md:w-auto mx-auto md:mt-0 mt-14">
+        <div class="flex flex-col text-xs md:text-base">
+          <button class="px-16 py-2 md:py-3 bg-blue-600 text-white rounded-full flex items-center"><ion-icon
+              name="logo-facebook" class="text-2xl"></ion-icon>CONTINUE WITH FACEBOOK</button>
+          <button class="px-16 py-2 md:py-3 bg-black text-white rounded-full my-3 flex items-center"><ion-icon name="logo-apple"
+              class="text-2xl"></ion-icon>CONTINUE WITH APPLE</button>
+          <button class="px-16 py-2 md:py-3 bg-white rounded-full flex items-center"><ion-icon name="logo-google"
+              class="text-2xl"></ion-icon>CONTINUE WITH GOOGLE</button>
+        </div>
+        <div class="flex items-center space-x-2">
+          <span class="w-[45%] h-[2px] bg-slate-300"></span>
+          <p class="font-semibold text-sm">OR</p>
+          <span class="w-[45%] h-[2px] bg-slate-300"></span>
+        </div>
+        <div class="flex-col justify-center items-center">
+          <h5 class="text-sm font-semibold">Email Address or Username</h5>
+          <input type="text" placeholder="Email address or Username"
+            class="md:w-96 h-10 border bg-transparent rounded-md p-2 w-[300px]">
+        </div>
+        <div class="relative mx-auto">
+          <h5 class="text-sm font-semibold">Password</h5>
+          <input type="text" placeholder="Password" class="md:w-96 h-10 border bg-transparent rounded-md p-2 w-[300px]" >
+          <span class="absolute md:right-5 right-2 bottom-[7.3px]"><ion-icon name="eye-off-outline" class="text-lg text-[rgba(0,0,0,.5)]"></ion-icon></span>
+        </div>
+        <div class="flex-col space-y-4">
+          <a href="forgetPassword.html"><h4 class="underline">Forget your password?</h4></a>
+          <div class="text-xs flex items-center"><input type="checkbox" checked>Remember Me</div>
+        </div>
+        <div class="border-b-2 flex justify-end">
+          <button class="bg-blue-500 rounded-full px-6 py-2 mb-3 text-white">Login</button>
+        </div>
+        <div class="text-center flex-col space-y-3 min-h-[15vh]">
+          <h2 class="font-semibold">Dont't have an account?</h2>
+          <div><a href="signUpPage.html"><button class="bg-white rounded-full px-6 py-2 md:w-full w-72 md:text-base text-xs">Sign Up</button></a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>

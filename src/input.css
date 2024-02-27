@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-slate-400 relative text-white rounded-xl shadow-xl;
+}
+.productCard{
+    @apply w-[350px] h-[570px] bg-gray-500 rounded-xl shadow-xl;
+}

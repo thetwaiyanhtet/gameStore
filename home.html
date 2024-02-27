@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Home Page</title>
+</head>
+
+<body class="bg-gradient-to-b from-stone-200 via-stone-800 to-teal-100 text-white">
+    <header>
+        <nav class="flex justify-between items-center text-center p-8 bg-gray-800">
+            <div class="text-xl">KyawGyi</div>
+            <div>
+                <ul class="md:flex md:space-x-10 hidden">
+                    <li class="text-orange-500">Home</li>
+                    <a href="allProducts.html">
+                        <li>Game Category</li>
+                    </a>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex space-x-5 text-2xl pt-1">
+                    <li><ion-icon name="search-outline"></ion-icon></li>
+                    <a href="checkout.html">
+                        <li><ion-icon name="cart-outline"></ion-icon></li>
+                    </a>
+                    <li><ion-icon name="heart-outline"></ion-icon></li>
+                    <li class="md:hidden"><ion-icon name="menu-outline" id="burger"></ion-icon></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="md:absolute md:top-0 z-20 md:w-full hidden p-5 md:hidden" id="menu">
+            <ul
+                class="flex flex-col items-center justify-center space-y-5 bg-gray-500 text-xl p-10 text-white  rounded-xl">
+                <li class="border-b-2">Home</li>
+                <li class="border-b-2">My Wishlist</li>
+                <li class="border-b-2">My Account</li>
+                <li class="border-b-2">Tracker Orders</li>
+                <li class="border-b-2">Refunds</li>
+                <li class="border-b-2">Help & FAQS</li>
+            </ul>
+        </div>
+    </header>
+    <main class="relative">
+        <img src="./image_files/MWF.jpg" alt="..." class="w-full">
+        <div class="uppercase min-h-[50vh] mt-8 md:ml-28 ml-10 absolute md:top-[40%] md:left-5 top-[15%]">
+            <h2
+                class="md:text-4xl text-lg bg-orange-600 inline md:px-10 md:py-3 px-6 py-2 rounded-tl-full rounded-br-full">
+                available on ps5</h2>
+            <h1 class="md:text-6xl text-xl font-serif md:w-[400px] w-[300px]">Call of Duty:Modern Warfare II</h1>
+            <button class="bg-orange-600 rounded-2xl uppercase md:px-7 md:py-3 px-4 py-2">get now</button>
+        </div>
+    </main>
+    <section>
+        <div class="ml-5 min-h-[50vh]">
+            <div class="my-5 ml-20">
+                <h2 class="uppercase text-orange-600 md:text-2xl text-xl font-semibold ">new arrivals>></h2>
+            </div>
+            <div class="flex justify-center items-center gap-14 flex-wrap">
+                <div class="card">
+                    <img src="./image_files/banner-01.jpg" alt="..." class="md:w-[400px] w-[300px] rounded-xl">
+                    <h2 class="uppercase absolute top-3 left-3 text-2xl">horizon forbidden west</h2>
+                    <button class="underline absolute bottom-3 left-3">Shop Now</button>
+                </div>
+                <div class="card">
+                    <img src="./image_files/banner-02.jpg" alt="..." class="md:w-[400px] w-[300px]  rounded-xl">
+                    <h2 class="uppercase absolute top-3 left-3 text-2xl">horizon forbidden west</h2>
+                    <button class="underline absolute bottom-3 left-3">Shop Now</button>
+                </div>
+                <div class="card">
+                    <img src="./image_files/banner-03.jpg" alt="..." class="md:w-[400px] w-[300px]  rounded-xl">
+                    <h2 class="uppercase absolute top-3 left-3 text-2xl">horizon forbidden west</h2>
+                    <button class="underline absolute bottom-3 left-3">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="min-h-screen">
+        <h1 class="underline text-center md:text-5xl text-xl">Our Products</h1>
+        <div class="flex items-center justify-between p-5 flex-wrap md:space-y-0 space-y-6">
+            <div>
+                <ul class="flex md:space-x-7 space-x-3 md:w-auto w-[350px] text-sm md:text-base">
+                    <li class="border border-orange-500 text-orange-500 bg-transparent md:px-5 md:py-2 px-2 py-1 ">
+                        Recommended</li>
+                    <li class="p-2">Top Rated</li>
+                    <li class="p-2">New Arrival</li>
+                    <li class="p-2">Trending</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex space-x-7">
+                    <li class="px-5 py-2 border border-orange-500 text-orange-500 bg-transparent">
+                        <ion-icon name="filter-circle-outline"></ion-icon>
+                        <button>Filter</button>
+                    </li>
+                    <li class="px-5 py-2 border border-orange-500 text-orange-500 bg-transparent">
+                        <ion-icon name="search-circle-outline"></ion-icon>
+                        <button>Search</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="md:text-3xl text-xl text-orange-500 ml-4">Action &
+            Adventure>>
+        </h1>
+        <div class="flex justify-around items-center flex-wrap md:space-y-0 space-y-4">
+            <div class="productCard">
+                <img src="./image_files/product-01.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="productCard">
+                <img src="./image_files/product-09.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="productCard">
+                <img src="./image_files/product-detail-01.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mr-20 mt-6">
+            <button class="rounded-full bg-orange-500 text-white px-6 py-2 font-semibold">Load More</button>
+        </div>
+        <h1 class="md:text-3xl text-xl text-orange-500 ml-4">
+            Sports>>
+        </h1>
+        <div class="flex justify-around items-center flex-wrap md:space-y-0 space-y-4">
+            <div class="productCard">
+                <img src="./image_files/product-12.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="productCard">
+                <img src="./image_files/product-23.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="productCard">
+                <img src="./image_files/product-15.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mr-20 mt-6">
+            <button class="rounded-full bg-orange-500 text-white px-6 py-2 font-semibold">Load More</button>
+        </div>
+        <h1 class="md:text-3xl text-xl text-orange-500 ml-4">Kids &
+            family>>
+        </h1>
+        <div class="flex justify-around items-center flex-wrap md:space-y-0 space-y-4">
+            <div class="productCard">
+                <img src="./image_files/product-13.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="productCard">
+                <img src="./image_files/product-21.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="productCard">
+                <img src="./image_files/product-04.jpg" alt="..." class="w-[300px] rounded-xl mx-auto mt-5">
+                <div class="ml-6 my-3 flex-col space-y-1">
+                    <h3 class="text-left">Call of Duty:Modern Warfare II</h3>
+                    <div class="text-left text-xl">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <div class="flex space-x-2 text-left">
+                        <h3>$69.99</h3>
+                        <h3 class="line-through">$79.99</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mr-20 mt-6">
+            <button class="rounded-full bg-orange-500 text-white px-6 py-2 font-semibold">Load More</button>
+        </div>
+    </section>
+
+    <section class="min-h-screen">
+        <div
+            class="flex flex-col md:space-y-10 space-y-3 border-b-2 border-red-600 p-10 md:w-[1400px] w-[370px] mx-auto">
+            <h1 class="underline text-center">Get Now Hot Deals</h1>
+            <div class="flex justify-around items-center flex-wrap space-y-3 md:space-y-0">
+                <div><img src="./image_files/banner-10.jpg" alt="..." class="w-[600px] rounded-lg"></div>
+                <div><img src="./image_files/banner-11.jpg" alt="..." class="w-[600px] rounded-lg"></div>
+            </div>
+            <div class="flex justify-around items-center flex-wrap space-y-3 md:space-y-0">
+                <div><img src="./image_files/banner-07.jpg" alt="..." class="w-[400px] rounded-lg"></div>
+                <div><img src="./image_files/banner-12.jpg" alt="..." class="w-[400px] rounded-lg"></div>
+                <div><img src="./image_files/banner-13.jpg" alt="..." class="w-[400px] rounded-lg"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="min-h-[90vh]">
+        <div class="flex flex-col space-y-10 p-10 md:w-[1400px] w-[370px] mx-auto text-black">
+            <h1 class="underline text-center ">Latest Blog Entries</h1>
+            <div class="flex justify-around items-center flex-wrap mx-auto">
+                <div class="flex flex-col space-y-4">
+                    <img src="./image_files/blog-01.jpg" alt="..." class="w-[400px]">
+                    <h4 class="text-[rgba(0,0,0,.5)]">By Nancy Ward on May 4,2023</h4>
+                    <h2 class="w-80 text-xl">Resident Evil Village DLC Winter's Expansionlaunches October 28</h2>
+                </div>
+                <div class="flex flex-col space-y-4">
+                    <img src="./image_files/blog-02.jpg" alt="..." class="w-[400px]">
+                    <h4 class="text-[rgba(0,0,0,.5)]">By Nancy Ward on May 4,2023</h4>
+                    <h2 class="w-80 text-xl">Resident Evil Village DLC Winter's Expansionlaunches October 28</h2>
+                </div>
+                <div class="flex flex-col space-y-4">
+                    <img src="./image_files/blog-03.jpg" alt="..." class="w-[400px]">
+                    <h4 class="text-[rgba(0,0,0,.5)]">By Nancy Ward on May 4,2023</h4>
+                    <h2 class="w-80 text-xl">Resident Evil Village DLC Winter's Expansionlaunches October 28</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="min-h-[50vh]">
+        <div
+            class="md:p-16 p-10 md:space-y-0 space-y-4 border-dotted border-4 rounded-lg md:w-[90%] w-[330px] mx-auto border-orange-500 flex md:flex-row flex-col items-center justify-around uppercase">
+            <div class="flex items-center">
+                <ion-icon name="mail-outline" class="md:text-6xl text-2xl text-orange-600"></ion-icon>
+                <h2 class="uppercase md:text-2xl text-lg font-bold">Subscribe NewSletter</h2>
+            </div>
+            <div class="w-72">
+                <p class="md:text-base text-sm text-center">sign up our newsletter & receive <span
+                        class="text-orange-400">15%off</span> your first purchase.</p>
+            </div>
+            <div class="flex">
+                <input type="text" placeholder="email@example.com" class="border-b-2 bg-transparent">
+                <button class="bg-orange-600 p-2 rounded-full">SUBSCRIBE</button>
+            </div>
+        </div>
+        <div class="flex justify-around items-center p-10 md:space-x-0 space-x-6">
+            <span><img src="./image_files/client1.png" alt="..." class="md:w-40 w-20"></span>
+            <span><img src="./image_files/client6.png" alt="..." class="md:w-40 w-20"></span>
+            <span><img src="./image_files/client2.png" alt="..." class="md:w-40 w-20"></span>
+            <span><img src="./image_files/client4.png" alt="..." class="md:w-40 w-20"></span>
+            <span><img src="./image_files/client7.png" alt="..." class="md:w-40 w-20"></span>
+        </div>
+    </section>
+
+    <footer class="">
+        <div class="flex justify-around flex-wrap md:space-y-0 space-y-10 text-black">
+            <div class="md:w-auto w-64">
+                <ul class="flex-col space-y-4">
+                    <li>
+                        <h2 class="uppercase md:text-2xl text-lg font-bold">store information</h2>
+                    </li>
+                    <li>
+                        <p>No,6 Stand Road,Pyae</p>
+                    </li>
+                    <li>
+                        <p>+9579065568</p>
+                    </li>
+                    <li>
+                        <p>info@example.com</p>
+                    </li>
+                    <li>
+                        <div class="flex cursor-pointer space-x-3">
+                            <img src="./image_files/icon-pay-01.png" alt="..." class="w-8">
+                            <img src="./image_files/icon-pay-02.png" alt="..." class="w-8">
+                            <img src="./image_files/icon-pay-03.png" alt="..." class="w-8">
+                            <img src="./image_files/icon-pay-04.png" alt="..." class="w-8">
+                            <img src="./image_files/icon-pay-05.png" alt="..." class="w-8">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-auto w-64">
+                <ul class="flex-col space-y-4">
+                    <li>
+                        <h2 class="uppercase md:text-2xl text-lg font-bold">useful links</h2>
+                    </li>
+                    <li>
+                        <p>PlayStation Studios</p>
+                    </li>
+                    <li>
+                        <p>PlayStation Games</p>
+                    </li>
+                    <li>
+                        <p>Xbox Consoles</p>
+                    </li>
+                    <li>
+                        <p>Xbox Games</p>
+                    </li>
+                    <li>
+                        <p>Xbox Accessories</p>
+                    </li>
+                    <li>
+                        <p>Cart</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-auto w-64">
+                <ul class="flex-col space-y-4">
+                    <li>
+                        <h2 class="uppercase md:text-2xl text-lg font-bold">our company</h2>
+                    </li>
+                    <li>
+                        <p>Support</p>
+                    </li>
+                    <li>
+                        <p>Privacy Policy</p>
+                    </li>
+                    <li>
+                        <p>Sitemap</p>
+                    </li>
+                    <li>
+                        <p>About Us</p>
+                    </li>
+                    <li>
+                        <p>Legal</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-auto w-64">
+                <ul class="flex-col space-y-4">
+                    <li>
+                        <h2 class="uppercase md:text-2xl text-lg font-bold">newsleller</h2>
+                    </li>
+                    <li>
+                        <div class="flex items-center">
+                            <input type="text" placeholder="email@example.com" class="border-b-2 bg-transparent">
+                            <div><ion-icon name="send-outline" class="text-2xl cursor-pointer"></ion-icon></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Get Social</p>
+                    </li>
+                    <li>
+                        <ul class="flex items-center space-x-7">
+                            <li><ion-icon name="logo-facebook" class="text-3xl cursor-pointer"></ion-icon></li>
+                            <li><ion-icon name="logo-twitter" class="text-3xl cursor-pointer"></ion-icon></li>
+                            <li><ion-icon name="logo-pinterest" class="text-3xl cursor-pointer"></ion-icon></li>
+                            <li><ion-icon name="logo-instagram" class="text-3xl cursor-pointer"></ion-icon></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="p-12">
+            <p class="text-center mt-5 md:text-base text-xs text-black">Copyright &#169; All right Reserved | Made by
+                <span class="text-orange-500">Kyawswarlynn</span>
+            </p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
